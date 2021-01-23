@@ -1,8 +1,14 @@
 <?php get_header(); ?>
 
-<?php get_template_part('includes/section', 'content') ?>
+<main class="content">
+    <section class="blog">
+        <h2>Blog</h2>
 
-<?php previous_posts_link(); ?>
-<?php next_posts_link(); ?>
+        <?php get_template_part('includes/section', 'content') ?>
+
+        <?php //previous_posts_link(); ?>
+        <?php //next_posts_link(); ?>
+    </section>
+</main>
  
 <?php get_footer(); ?>

@@ -1,5 +1,11 @@
 <?php
 
+function cultura_init() {
+    add_theme_support('post-thumbnails');
+}
+
+add_action('after_setup_theme', 'cultura_init');
+
 // adding CSS and JS
 function cultura_setup() {
     // styles
@@ -9,7 +15,7 @@ function cultura_setup() {
 
     // scripts
     wp_enqueue_script('font-awesome', 'https://use.fontawesome.com/cc9d58dbce.js');
-    wp_enqueue_script('cultura-js', get_template_directory_uri() . '/frontend/js/cultura.js');
+    wp_enqueue_script('cultura-js', get_template_directory_uri() . '/frontend/js/cultura.js', array(), '', true);
 }
 
 // add action to tell wordpress to start setup

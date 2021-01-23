@@ -4,11 +4,55 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    background-image: url('../images/bg.jpg');
+    background-color: $white;
+    background-image: url("./../images/bg_light.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    &.lock {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+.content {
+    flex: 1 0 auto;
+    margin-top: $headerHeight;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+input[type=text], 
+input[type=email], 
+button, 
+textarea {
+    border:none;
+    box-shadow: none;
+    background-color: $white;
+}
+
+.btn--primary {
+    background-color: $white;
+    color: $black;
+}
+
+section {
+    text-align: center;
 }

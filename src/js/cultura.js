@@ -1,3 +1,5 @@
 import Menu from './modules/menu';
+import Gallery from './modules/gallery';
 
-const myMenu = new Menu();
+Menu();
+Gallery();

@@ -1,0 +1,23 @@
+.partners {
+    background-color: $white;
+
+    .partners__title {
+        color: $blue;
+    }
+    
+    .partners__grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .partner-logo-wrapper {
+        width: 200px;
+        margin: 10px;
+    }
+    
+    .partner-logo {
+        width: 100%;
+        padding: 10px;
+    }
+}
