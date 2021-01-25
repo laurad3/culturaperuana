@@ -24,10 +24,12 @@
 
             <div class="header__menu js-header-menu">
                 <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
+
                 <div class="menu-item language-options">
                     <span class="selected-language language-option">es</span> | <span class="language-option">de</span>
                 </div>
-                <div class="social-icon-wrapper">
+
+                <div class="social-icons-wrapper">
                     <a href="https://www.facebook.com/culturaperuana.ch/" target="_blank">
                         <i class="fa fas fa-facebook-square social-icon"></i>
                     </a>

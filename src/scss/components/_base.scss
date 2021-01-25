@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    height: 100%;
-}
-
 body {
     background-color: $white;
     background-image: url("./../images/bg_light.jpg");
@@ -17,17 +13,11 @@ body {
     font-family: 'Cabin', sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100%;
 
     &.lock {
         height: 100vh;
         overflow: hidden;
     }
-}
-
-.content {
-    flex: 1 0 auto;
-    margin-top: $headerHeight;
 }
 
 a {
@@ -39,20 +29,38 @@ li {
     list-style: none;
 }
 
-input[type=text], 
-input[type=email], 
-button, 
-textarea {
-    border:none;
+.content {
+    margin-top: $headerHeight;
+}
+
+input,
+textarea,
+button {
+    font-family: 'Cabin', sans-serif;
+    border: none;
     box-shadow: none;
-    background-color: $white;
+    font-size: 14px;
+    height: 35px;
 }
 
-.btn--primary {
-    background-color: $white;
-    color: $black;
+.input-text {
+    padding: 0 7px;
 }
 
-section {
+.section {
     text-align: center;
+}
+
+.arrow {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.arrow-icon {
+
+}
+
+.social-icons {
+
 }

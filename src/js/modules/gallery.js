@@ -23,7 +23,6 @@ export default function Gallery() {
         instance.gallery = document.querySelector(config.selectors.gallery);
         instance.arrowLeft = document.querySelector(config.selectors.arrowLeft);
         instance.arrowRight = document.querySelector(config.selectors.arrowRight);
-        console.log(instance.arrowLeft);
 
         if (instance.gallery) {
             instance.mySiema = new Siema({

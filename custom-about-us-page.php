@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <main class="content">
-    <section class="about-us">
+    <section class="section about-us">
         <h2 class="section-title about-us__title"><?php the_title(); ?></h2>
 
         <div class="section-img-wrapper">

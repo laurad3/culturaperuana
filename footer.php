@@ -6,27 +6,27 @@
             
             <div class="footer__social-icons">
                 <a href="https://www.facebook.com/culturaperuana.ch/" target="_blank">
-                    <i class="fa fas fa-facebook-square footer__social-icon"></i>
+                    <i class="fa fas fa-facebook-square social-icon footer__social-icon"></i>
                 </a>
                 <a href="#" target="_blank">
-                    <i class="fa fas fa-instagram footer__social-icon"></i>
+                    <i class="fa fas fa-instagram social-icon footer__social-icon"></i>
                 </a>
                 <a href="#" target="_blank">
-                    <i class="fa fas fa-twitter footer__social-icon"></i>
+                    <i class="fa fas fa-twitter social-icon footer__social-icon"></i>
                 </a>
             </div>
 
-            <div class="footer__content-newsletter">
-                <p class="newsletter__text">Subscribir a nuestro newsletter</p>
+            <div class="footer__newsletter">
+                <p class="newsletter-text">Subscribir a nuestro newsletter</p>
                 
-                <form action="">
-                    <input type="text" placeholder="Email" class="footer__input">
-                    <button type="submit" class="footer__button">Subscribir</button>
+                <form action="" class="newsletter-form">
+                    <input type="text" placeholder="Email" class="newsletter-input input-text">
+                    <button type="submit" class="btn btn--secondary newsletter-btn">Subscribir</button>
                 </form>
             </div>
 
-            <div class="footer__content-image">
-                <img src="<?= get_template_directory_uri() . '/frontend/images/logo_white.png'; ?>" alt="logo" class="footer__content-logo">
+            <div class="footer__logo">
+                <img src="<?= get_template_directory_uri() . '/frontend/images/logo_white.png'; ?>" alt="logo" class="logo">
             </div>
         </div>
 

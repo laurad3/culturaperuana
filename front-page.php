@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main class="content">
-    <section class="hero">
+    <section class="section hero">
         <div class="gallery">
             <div class="gallery__slider js-gallery">
                 <div class="gallery__item">
@@ -24,12 +24,12 @@
         </div>
     </section>
     
-    <section class="events">
+    <section class="section events">
         <h2 class="section-title events__title">Eventos</h2>
         <div class="events__grid latest-events"></div>
     </section>
 
-    <section class="partners">
+    <section class="section partners">
         <h2 class="section-title partners__title">Partner</h2>
         <div class="partners__grid">
             <div class="partner-logo-wrapper">

@@ -1,6 +1,6 @@
 .header__menu {
-    position: fixed;
-    top: $headerHeight;
+    position: absolute;
+    top: 100%;
     left: 0;
     right: 0;
     height: 100vh;
@@ -26,8 +26,13 @@
         margin-top: 10px;
     }
 
-    .social-icon-wrapper {
+    .social-icons-wrapper {
+        color: $orange;
         margin-top: 15px;
+    }
+
+    .social-icon {
+        font-size: 28px;
     }
 
     .language-option {
@@ -38,11 +43,6 @@
 
     .selected-language {
         color: $blue;
-    }
-
-    .social-icon-wrapper {
-        color: $orange;
-        font-size: 28px;
     }
 }
 
@@ -81,7 +81,7 @@
             }
         }
 
-        .social-icon-wrapper {
+        .social-icons-wrapper {
             display: none;
         }
     }

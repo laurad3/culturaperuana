@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <main class="content">
-    <section class="all-events">
+    <section class="section all-events">
         <h2><?php the_title() ?></h2>
 
         <h3 class="section-subtitle all-events__subtitle">Siguientes Eventos</h3>
