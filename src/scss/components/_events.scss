@@ -1,0 +1,36 @@
+.events {
+    .events__title {
+        color: $orange;
+    }
+
+    .events__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .events__card {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 190px;
+        background-color: $white;
+        box-shadow: 15px 15px 0px 0px $blue;
+        margin: 30px auto;
+    }
+}
+
+@include breakpoint(768px) {
+    .events {
+        .events__grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@include breakpoint(1200px) {
+    .events {
+        .events__grid {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}

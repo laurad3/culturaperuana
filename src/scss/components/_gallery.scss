@@ -4,16 +4,18 @@
 
 .gallery { 
     position: relative;
-    max-width: 700px;
+    max-width: 1200px;
     margin: 0 auto;
 
     .gallery__item {
-        height: 300px;
+        overflow: hidden;
         text-align: center;
     }
 
     .gallery__image {
-        height: 100%;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .gallery__arrows {
@@ -38,5 +40,26 @@
 
     .arrow-icon {
         color: $white;
+    }
+}
+
+@include breakpoint(768px) {
+    .gallery {
+        .gallery__item {
+            height: 500px;
+        }
+
+        .gallery__image {
+            height: 100%;
+            width: auto;
+        }
+    }
+}
+
+@include breakpoint(1200px) {
+    .gallery {
+        .gallery__item {
+            height: 700px;
+        }
     }
 }

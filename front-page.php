@@ -15,6 +15,18 @@
                 <div class="gallery__item">
                     <img src="<?= get_template_directory_uri() . '/frontend/images/gallery/gallery_3.jpg'; ?>" class="gallery__image" alt="gallery_3">
                 </div>
+
+                <div class="gallery__item">
+                    <img src="<?= get_template_directory_uri() . '/frontend/images/gallery/gallery_4.jpg'; ?>" class="gallery__image" alt="gallery_4">
+                </div>
+
+                <div class="gallery__item">
+                    <img src="<?= get_template_directory_uri() . '/frontend/images/gallery/gallery_5.jpg'; ?>" class="gallery__image" alt="gallery_5">
+                </div>
+
+                <div class="gallery__item">
+                    <img src="<?= get_template_directory_uri() . '/frontend/images/gallery/gallery_6.jpg'; ?>" class="gallery__image" alt="gallery_6">
+                </div>
             </div>
 
             <div class="gallery__arrows">
@@ -26,12 +38,45 @@
     
     <section class="section events">
         <h2 class="section-title events__title">Eventos</h2>
-        <div class="events__grid latest-events"></div>
+        <div class="grid events__grid latest-events">
+            <div class="events__card">
+                <div class="events__card-info">
+                    <div class="event-date">11.02</div>
+                    <div class="event-name">"El cóndor pasa, más de 100 años en la memoria colectiva peruana"</div>
+                </div>
+                <div class="events__card-image">
+                    <img src="" alt="" target="_blank">
+                    <a href=""><i class="fa fas fa-arrow-right arrow-icon"></i></a>
+                </div>
+            </div>
+
+            <div class="events__card">
+                <div class="events__card-info">
+                    <div class="event-date">11.02</div>
+                    <div class="event-name">"El cóndor pasa, más de 100 años en la memoria colectiva peruana"</div>
+                </div>
+                <div class="events__card-image">
+                    <img src="" alt="" target="_blank">
+                    <a href=""><i class="fa fas fa-arrow-right arrow-icon"></i></a>
+                </div>
+            </div>
+
+            <div class="events__card">
+                <div class="events__card-info">
+                    <div class="event-date">11.02</div>
+                    <div class="event-name">"El cóndor pasa, más de 100 años en la memoria colectiva peruana"</div>
+                </div>
+                <div class="events__card-image">
+                    <img src="" alt="" target="_blank">
+                    <a href=""><i class="fa fas fa-arrow-right arrow-icon"></i></a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="section partners">
         <h2 class="section-title partners__title">Partner</h2>
-        <div class="partners__grid">
+        <div class="partners__list">
             <div class="partner-logo-wrapper">
                 <a href="https://gz-zh.ch/" target="_blank">
                     <img 
